@@ -1,0 +1,84 @@
+.selectArea {
+  width: 500px;
+  height: 100%;
+  padding: 4px;
+  padding-top: 0px;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: #FFF;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, .2);
+  overflow: auto;
+  cursor: text;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  :global {
+
+    .ant-input:focus,
+    .ant-input-focused {
+      box-shadow: 0;
+    }
+  }
+
+  .tagItem {
+    margin-top: 4px;
+    margin-right: 4px;
+    font-size: 14px;
+    cursor: default;
+  }
+
+  .input {
+    width: auto;
+    min-width: 80px;
+    background: transparent;
+    padding: 0;
+    box-shadow: 0;
+    flex: 1;
+    margin: 0;
+    margin-top: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #999;
+    box-shadow: none;
+    content: '';
+  }
+
+  &::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    background-color: #ccc;
+  }
+
+  &::-webkit-scrollbar-corner {
+    background-color: rgb(23, 23, 30);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #3c3c3c;
+    box-shadow: none;
+    border-radius: 95px;
+
+    &:hover {
+      background-color: #5c5c5c;
+    }
+  }
+}
+
+.selectMenu {
+  height: auto;
+  max-width: 600px;
+  max-height: 200px;
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 2px 5px 10px #909090;
+  overflow: auto;
+
+  display: flex;
+  flex-direction: column;
+}
