@@ -4,7 +4,7 @@
 
 基于react、ant-design、less自定义的标签式选择器。
 
-![image-20211220160902612](\README.assets\image-20211220160902612-16399877885601.png)
+![image-20211220160902612](https://github.com/Chris-Li25/tag-selector/blob/main/README.assets/image-20211220160902612.png)
 
 
 
